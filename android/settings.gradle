@@ -1,0 +1,7 @@
+rootProject.name = 'WhiteNoiseProject'
+include ':react-native-system-setting'
+project(':react-native-system-setting').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-system-setting/android')
+include ':react-native-sound'
+project(':react-native-sound').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sound/android')
+
+include ':app'
